@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width= device-width, initial-scale=1">
+	<title>HTML Table - Zebra Strip</title>
+	<style>
+		table, th, td, tr
+		{
+			border: 2px solid black;
+			border-collapse: collapse;
+			padding: 5px;
+		}
+		th
+		{
+			background-color: black;
+			color: white;
+		}
+		th:nth-child(even)
+		{
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+
+	<h3 style="text-align: center;">Basic Table</h3>
+	<table>
+		<caption></caption>
+		<tr>
+			<th>Name</th>
+			<th>Phone Number</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>Nur Aiman</td>
+			<td>0172923017</td>
+			<td>nuraimanashari@gmail.com</td>
+		
+		</tr>
+	</table>
+
+</body>
+</html>
